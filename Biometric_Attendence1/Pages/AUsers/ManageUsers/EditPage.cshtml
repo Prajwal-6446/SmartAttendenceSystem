@@ -1,0 +1,51 @@
+﻿@page
+@model BioMetric_Attendence.Pages.ManageUsers.EditModel
+
+<form method="post">
+	<input hidden asp-for="ManageUser.Id" />
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+          <h2 class="text-primary pl-3">Edit Category</h2>
+		  <hr />
+		</div>
+		<div asp-validation-summary="All"></div>
+		<div class="mb-3">
+			<label asp-for="ManageUser.Name"></label>
+			<input asp-for="ManageUser.Name" class="form-control" />
+			<span asp-validation-for="ManageUser.Name" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="ManageUser.FingerId"></label>
+			<input asp-for="ManageUser.FingerId" disabled class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="ManageUser.Gender">Gender:</label>
+			<label>
+				<input asp-for="ManageUser.Gender" type="radio" value="Male" /> Male
+			</label>
+
+			<label>
+				<input asp-for="ManageUser.Gender" type="radio" value="Female" /> Female
+			</label>
+
+			<label>
+				<input asp-for="ManageUser.Gender" type="radio" value="Other" /> Other
+			</label>
+
+			<span asp-validation-for="ManageUser.Gender" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="ManageUser.Date"></label>
+			<input asp-for="ManageUser.Date" class="form-control" />
+			<span asp-validation-for="ManageUser.Date" class="text-danger"></span>
+		</div>
+		<button type="submit" class="btn btn-primary" style="width:150px;">Edit</button>
+		<a asp-page="Index" class="btn btn-secondary" style="width:150px;">Back to List</a>
+	</div>
+</form>
+
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial" />
+	}
+}
