@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Biometric_Attendence1.props" />
+</Project>

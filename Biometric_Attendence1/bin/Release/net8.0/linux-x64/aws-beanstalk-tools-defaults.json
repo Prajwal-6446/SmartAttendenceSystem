@@ -1,0 +1,20 @@
+
+{
+    "region" : "ap-south-1",
+    "configuration" : "Debug",
+    "framework"     : "net8.0",
+    "self-contained" : false,
+    "application"    : "BiometricAttendence1",
+    "environment"    : "BiometricAttendence1-test",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-016443e62b3ef0d8b\";\"aws:ec2:vpc,Subnets\"=\"subnet-0fb7d1ff8103b3142\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.6.4 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "biometricattendence1-test",
+    "instance-type"        : "t2.micro",
+    "key-pair"             : "",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
