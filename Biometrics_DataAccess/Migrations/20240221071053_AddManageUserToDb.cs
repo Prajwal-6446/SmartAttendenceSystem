@@ -19,7 +19,7 @@ namespace Biometrics_DataAccess.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Gender = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    FingerId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FingerId = table.Column<int>(type: "int", nullable: false),
                     Date = table.Column<DateTime>(type: "datetime2", nullable: false),
                     FingerprintData = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },

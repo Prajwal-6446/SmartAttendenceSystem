@@ -11,10 +11,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
     ));
 builder.Services.AddScoped<IManageUsersRepository, ManageUsersRepository>();
 builder.Services.AddScoped<ITrackUsersRepository, TrackUsersRepository>();
-
+builder.Services.AddScoped<IMarkAttendenceRepository, MarkAttendenceRepository>();
+builder.Services.AddAntiforgery(o => o.HeaderName = "XSRF-TOKEN");
 builder.Services.AddAntiforgery(options =>
 {
-	options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+    options.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest;
 });
 
 var app = builder.Build();

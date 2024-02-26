@@ -1,17 +1,17 @@
-
 using Biometrics_DataAccess.Repository;
 using Biometrics_Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace BioMetric_Attendence.Pages.ManageUsers
+namespace Biometric_Attendence1.Pages
 {
 	[BindProperties]
-	public class EditModel : PageModel
-	{
+	public class MEdit1Model : PageModel
+    {
+
 		private readonly IManageUsersRepository _db;
 		public ManageUser ManageUser { get; set; }
-		public EditModel(IManageUsersRepository db)
+		public MEdit1Model(IManageUsersRepository db)
 		{
 			_db = db;
 		}
@@ -24,18 +24,15 @@ namespace BioMetric_Attendence.Pages.ManageUsers
 			//Category = _db.Category.Where(u=>u.Id==id).FirstOrDefault();//it can return 10 or more records wherevr the id matches so thasty firstordefaylt is called
 		}
 
+		public async Task<IActionResult> OnPost(int id)
+		{
 
-			public async Task<IActionResult> OnPost(int id)
-			{
-				if (ModelState.IsValid)
-				{
-					await Task.Run(() => _db.Update(ManageUser)); // Run the synchronous method asynchronously
-
-					return RedirectToPage("Index");
-				}
-
-				return Page();
-			}
+			_db.Update(ManageUser); // Run the synchronous method asynchronously
+            TempData["Success"] = "User Edited Successfully";
+            return RedirectToPage("MIndex1");
 
 		}
+
 	}
+}
+

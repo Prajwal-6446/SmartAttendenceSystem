@@ -10,6 +10,7 @@ namespace Biometrics_DataAccess.Repository
         ManageUser Add(ManageUser manageUser);
         ManageUser Update(ManageUser manageUser);
         void Remove(int id);
-		//void SaveChanges();
-	}
+        public int? getfingerId();
+        //void SaveChanges();
+    }
 }

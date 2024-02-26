@@ -1,0 +1,142 @@
+﻿@page
+@model Biometric_Attendence1.Pages.MCreate1Model
+@Html.AntiForgeryToken()
+@if (TempData["Success"] != null)
+{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+    <script type="text/javascript">
+        toastr.success('@TempData["Success"]');
+    </script>
+}
+
+<form method="post" id="addEmployeeForm">
+
+    <input type="hidden" name="__RequestVerificationToken" value="@Html.AntiForgeryToken()">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary pl-3">Add New User</h2>
+            <hr />
+        </div>
+        <div class="mb-3">
+            <label asp-for="manageUser.Name"></label>
+            <input id="name" asp-for="manageUser.Name" class="form-control" />
+            <span asp-validation-for="manageUser.Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="manageUser.Gender" for="genderField">Gender:</label>
+            <div>
+                <label>
+                    <input class="genderField" asp-for="manageUser.Gender" type="radio" value="Male" /> Male
+                </label>
+
+                <label>
+                    <input class="genderField" asp-for="manageUser.Gender" type="radio" value="Female" /> Female
+                </label>
+
+                <label>
+                    <input class="genderField" asp-for="manageUser.Gender" type="radio" value="Other" /> Other
+                </label>
+            </div>
+            <span asp-validation-for="manageUser.Gender" class="text-danger"></span>
+        </div>
+
+
+        <div class="mb-3">
+            <label asp-for="manageUser.FingerId"></label>
+            <input id="fingerId" asp-for="GetfingerId.fingerId" class="form-control" disabled />
+        </div>
+        <div class="mb-3">
+            <label asp-for="manageUser.Date"></label>
+            <input id="date" asp-for="manageUser.Date" class="form-control" type="date" />
+            <span asp-validation-for="manageUser.Date" class="text-danger"></span>
+        </div>
+
+        <button type="submit" id="Create" class="btn btn-primary" style="width:150px;">Create</button>
+        <a asp-page="Index" class="btn btn-secondary" style="width:150px;">Back to List</a>
+
+    </div>
+</form>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        $("#Create").on("click", function (e) {
+            e.preventDefault(); // Prevent the default form submission
+            debugger;
+            var fingerId = $("#fingerId").val();  // Get the finger ID from the form input\
+            var name = $("#name").val();
+            var gender = $(".genderField").val();
+            var date = $("#date").val();
+           // SendDataToServer("abc", fingerId, name, gender, date)
+
+            // Make an AJAX POST request to the NodeMCU server to capture the fingerprint
+            $.ajax({
+                url: 'http://192.168.0.198/captureFingerprint', // Replace with your NodeMCU IP address and endpoint
+                type: 'POST',
+                data: { fingerId: fingerId }, // Send the finger ID to the server
+                success: function (response) {
+                    debugger;
+                    if (response == "-1") {
+                        alert('error capturing fingerprint')
+
+                    }
+                    else {
+                        alert('Fingerprint captured successfully', response.fingerprintID);
+                        console.log(response)
+                        SendDataToServer(response, fingerId, name, gender, date)
+                    }
+                    // Show success message
+                    // Optionally, you can redirect to another page after successful response
+                    //window.location.href = '/some-other-page'; // Redirect to another page
+
+
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error capturing fingerprint:', error); // Log any errors
+                    // Handle errors, e.g., display an error message
+                }
+            });
+        });
+
+
+        
+
+    });
+
+    function SendDataToServer(hasvalue, fingerId, name, gender, date) {
+        debugger;
+        $.ajax({
+            type: "POST",
+            url: "/MCreate1?Handler=AddUsers", // Replace with your actual controller and action
+            data: { fingerhashData: hasvalue, fingerId: fingerId, name: name, date: date, gender: gender }, // Pass the array directly
+            beforeSend: function (xhr) {
+                xhr.setRequestHeader("XSRF-TOKEN",
+                    $('input:hidden[name="__RequestVerificationToken"]').val());
+            },
+
+            success: function (response) {
+                debugger;
+                if (response.success) {
+                    alert(response.message);
+                    window.location.href = '/MIndex1';
+                }
+                else {
+                    alert(response.message);
+                }
+
+            },
+            error: function (error) {
+                // Handle error response from the server
+                alert("Error occurred during the AJAX request.");
+                console.error(error);
+            }
+        });
+
+    }
+
+
+</script>
+
+

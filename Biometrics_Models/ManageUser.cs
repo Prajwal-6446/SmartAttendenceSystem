@@ -14,13 +14,13 @@ namespace Biometrics_Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+        //[Required]
         public string Name { get; set; }
         public string Gender { get; set; }
-        [Required]
-        [Range(0, 100, ErrorMessage = "Enter Finger ID between 1 - 127:")]
-		public string FingerId { get; set; }
-        [Required(ErrorMessage = "Date is required.")]
+        //[Required]
+        //[Range(0, 100, ErrorMessage = "Enter Finger ID between 1 - 127:")]
+        public int FingerId { get; set; }
+        //[Required(ErrorMessage = "Date is required.")]
         public DateTime Date { get; set; }
         public string FingerprintData { get; set; }
         [NotMapped]
@@ -28,4 +28,9 @@ namespace Biometrics_Models
 
 	
 	}
+
+    public class GetFingerId
+    {
+       public int? fingerId { get; set; }
+    }
 }

@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Biometric_Attendence1.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/2.0.0/css/dataTables.dataTables.min.css" />
 </head>
 <body>
     <header>
@@ -21,10 +23,10 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/AUsers/ManageUsers/Index">ManageUsers</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/MIndex1">ManageUsers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/AUsers/TrackUsers/Index">TrackUser</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/TIndex2">TrackUser</a>
                         </li>
                     </ul>
                 </div>
@@ -46,6 +48,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="//cdn.datatables.net/2.0.0/js/dataTables.min.js"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

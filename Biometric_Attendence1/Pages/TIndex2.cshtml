@@ -1,5 +1,5 @@
 ﻿@page
-@model BioMetric_Attendence.Pages.TrackUsers.IndexModel
+@model Biometric_Attendence1.Pages.TIndex2Model
 <div class="container p-3 text-primary">
 	<div class="row pt-4">
 		<div class="col-6">
@@ -8,7 +8,7 @@
 	</div>
 	<br /><br />
 	<p>Current Date: @DateTime.Today.ToShortDateString()</p>
-	<table class="table table-bordered table-striped " style="width:100%">
+	<table id="Data_table" class="table table-bordered table-striped " style="width:100%">
 		<thead>
 			<tr>
 				<th>UserID</th>
@@ -44,3 +44,6 @@
 		</tbody>
 	</table>
 </div>
+@section Scripts {
+	<script src="~/js/ManageUser.js"></script>
+}

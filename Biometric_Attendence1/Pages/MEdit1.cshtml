@@ -1,14 +1,22 @@
 ﻿@page
-@model BioMetric_Attendence.Pages.ManageUsers.EditModel
-
+@model Biometric_Attendence1.Pages.MEdit1Model
+@if (TempData["Success"] != null)
+{
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+	<script type="text/javascript">
+			toastr.success('@TempData["Success"]');
+	</script>
+}
 <form method="post">
 	<input hidden asp-for="ManageUser.Id" />
 	<div class="border p-3 mt-4">
 		<div class="row pb-2">
-          <h2 class="text-primary pl-3">Edit Category</h2>
-		  <hr />
+			<h2 class="text-primary pl-3">Edit Category</h2>
+			<hr />
 		</div>
-		<div asp-validation-summary="All"></div>
+		@* //<div asp-validation-summary="All"></div> *@
 		<div class="mb-3">
 			<label asp-for="ManageUser.Name"></label>
 			<input asp-for="ManageUser.Name" class="form-control" />
@@ -44,7 +52,7 @@
 	</div>
 </form>
 
-@section Scripts{
+@section Scripts {
 	@{
 		<partial name="_ValidationScriptsPartial" />
 	}

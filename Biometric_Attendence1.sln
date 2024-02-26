@@ -10,7 +10,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biometric_Attendence1", "Bi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biometrics_Models", "Biometrics_Models\Biometrics_Models.csproj", "{F660073F-DB84-41C7-A434-1CD4464EF692}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biometrics_DataAccess", "Biometrics_DataAccess\Biometrics_DataAccess.csproj", "{924E72C7-B919-4F40-8997-C3DA04547CA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biometrics_DataAccess", "Biometrics_DataAccess\Biometrics_DataAccess.csproj", "{924E72C7-B919-4F40-8997-C3DA04547CA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

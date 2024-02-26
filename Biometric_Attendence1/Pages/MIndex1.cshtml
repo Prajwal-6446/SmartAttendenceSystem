@@ -1,18 +1,18 @@
 ﻿@page
-@model BioMetric_Attendence.Pages.ManageUsers.IndexModel
+@model Biometric_Attendence1.Pages.MIndex1Model
 <div class="container p-3 text-primary">
 	<div class="row pt-4">
 		<div class="col-6">
 			<h2 class="text-primary text-white"> Users list</h2>
 		</div>
 		<div class="col-6 text-end">
-			<a asp-page="create" class="btn btn-primary">
+			<a asp-page="MCreate1" class="btn btn-primary">
 				<i class="bi bi-plus-square"></i> &nbsp; Add New User
 			</a>
 		</div>
 	</div>
 	<br /><br />
-	<table class="table table-bordered table-striped " style="width:100%">
+	<table id="Data_table" class="table table-bordered table-striped " style="width:100%">
 		<thead>
 			<tr>
 				<th>Name</th>
@@ -29,13 +29,13 @@
 					<td width="30%">@obj.Name</td>
 					<td width="10%">@obj.Gender</td>
 					<td width="30%">@obj.FingerId</td>
-					<td width="30%">@obj.Date</td>
+					<td width="30%">@obj.Date.ToString("MM-dd-yyyy")</td>
 					<td>
 						<div class="w-75 btn-group" role="group">
-							<a asp-page="Edit" asp-route-id="@obj.Id" class="btn-primary mx-2">
+							<a asp-page="MEdit1" asp-route-id="@obj.Id" class="btn-primary mx-2">
 								<i class="bi bi-pencil-square"></i>
 							</a>
-							<a asp-page="Delete" asp-route-id="@obj.Id" class="btn-danger mx-2">
+							<a asp-page="MDelete1" asp-route-id="@obj.Id" class="btn-danger mx-2">
 								<i class="bi bi-trash3"></i>
 							</a>
 						</div>
@@ -45,3 +45,7 @@
 		</tbody>
 	</table>
 </div>
+@section Scripts{
+	<script src="~/js/ManageUser.js"></script>
+}
+
