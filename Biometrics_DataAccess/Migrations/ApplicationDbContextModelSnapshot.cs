@@ -53,6 +53,35 @@ namespace Biometrics_DataAccess.Migrations
                     b.ToTable("ManageUser");
                 });
 
+            modelBuilder.Entity("Biometrics_Models.Registration", b =>
+                {
+                    b.Property<int>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("confirmPassword")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("Registration");
+                });
+
             modelBuilder.Entity("Biometrics_Models.TrackUser", b =>
                 {
                     b.Property<int>("Id")

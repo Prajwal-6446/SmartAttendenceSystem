@@ -16,6 +16,7 @@ namespace Biometrics_DataAccess.Data
         }
         public DbSet<ManageUser> ManageUser { get; set; }
         public DbSet<TrackUser> TrackUser { get; set; }
+        public DbSet<Registration> Registration { get; set; }
 
     }
 }

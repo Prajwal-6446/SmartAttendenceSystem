@@ -1,5 +1,6 @@
 using Biometrics_DataAccess.Data;
 using Biometrics_DataAccess.Repository;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 builder.Services.AddScoped<IManageUsersRepository, ManageUsersRepository>();
 builder.Services.AddScoped<ITrackUsersRepository, TrackUsersRepository>();
 builder.Services.AddScoped<IMarkAttendenceRepository, MarkAttendenceRepository>();
+builder.Services.AddScoped<IRegistrationRepository, RegistrationRepository>();
 builder.Services.AddAntiforgery(o => o.HeaderName = "XSRF-TOKEN");
 builder.Services.AddAntiforgery(options =>
 {

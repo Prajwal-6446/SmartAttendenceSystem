@@ -3,48 +3,12 @@
   "WorkspaceRootPath": "C:\\.NET_Course\\Biometric_Attendence1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\markattendence.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\markattendence.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\mcreate1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\mcreate1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|c:\\.net_course\\biometric_attendence1\\biometrics_dataaccess\\repository\\manageusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|solutionrelative:biometrics_dataaccess\\repository\\manageusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|c:\\.net_course\\biometric_attendence1\\biometrics_dataaccess\\repository\\markattendencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|solutionrelative:biometrics_dataaccess\\repository\\markattendencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|c:\\.net_course\\biometric_attendence1\\biometrics_dataaccess\\repository\\imanageusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|solutionrelative:biometrics_dataaccess\\repository\\imanageusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|c:\\.net_course\\biometric_attendence1\\biometrics_dataaccess\\repository\\imarkattendencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|solutionrelative:biometrics_dataaccess\\repository\\imarkattendencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\markattendence.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\markattendence.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\mindex1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\mindex1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\tindex2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\tindex2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\mcreate1.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\mcreate1.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\medit1.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\medit1.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\medit1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -55,464 +19,396 @@
       "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\mdelete1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\mcreate1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\mcreate1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\mdelete1.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\mdelete1.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\mindex1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\mindex1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\wwwroot\\js\\manageuser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\wwwroot\\js\\manageuser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F660073F-DB84-41C7-A434-1CD4464EF692}|Biometrics_Models\\Biometrics_Models.csproj|c:\\.net_course\\biometric_attendence1\\biometrics_models\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F660073F-DB84-41C7-A434-1CD4464EF692}|Biometrics_Models\\Biometrics_Models.csproj|solutionrelative:biometrics_models\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\mcreate1.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\mcreate1.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|c:\\.net_course\\biometric_attendence1\\biometrics_dataaccess\\repository\\itrackusersrepositor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|solutionrelative:biometrics_dataaccess\\repository\\itrackusersrepositor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|c:\\.net_course\\biometric_attendence1\\biometrics_dataaccess\\migrations\\20240221071053_addmanageusertodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|solutionrelative:biometrics_dataaccess\\migrations\\20240221071053_addmanageusertodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|c:\\.net_course\\biometric_attendence1\\biometrics_dataaccess\\repository\\trackusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|solutionrelative:biometrics_dataaccess\\repository\\trackusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F660073F-DB84-41C7-A434-1CD4464EF692}|Biometrics_Models\\Biometrics_Models.csproj|c:\\.net_course\\biometric_attendence1\\biometrics_models\\trackuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F660073F-DB84-41C7-A434-1CD4464EF692}|Biometrics_Models\\Biometrics_Models.csproj|solutionrelative:biometrics_models\\trackuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\tindex2.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\tindex2.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\wwwroot\\js\\background.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\wwwroot\\js\\background.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\mindex1.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\mindex1.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F660073F-DB84-41C7-A434-1CD4464EF692}|Biometrics_Models\\Biometrics_Models.csproj|c:\\.net_course\\biometric_attendence1\\biometrics_models\\trackuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F660073F-DB84-41C7-A434-1CD4464EF692}|Biometrics_Models\\Biometrics_Models.csproj|solutionrelative:biometrics_models\\trackuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|c:\\.net_course\\biometric_attendence1\\biometrics_dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|solutionrelative:biometrics_dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\wwwroot\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\wwwroot\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|c:\\.net_course\\biometric_attendence1\\biometrics_dataaccess\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|solutionrelative:biometrics_dataaccess\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|c:\\.net_course\\biometric_attendence1\\biometrics_dataaccess\\repository\\registrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|solutionrelative:biometrics_dataaccess\\repository\\registrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\biometric_attendence1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\biometric_attendence1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\markattendence.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\markattendence.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|c:\\.net_course\\biometric_attendence1\\biometrics_dataaccess\\repository\\markattendencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|solutionrelative:biometrics_dataaccess\\repository\\markattendencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|c:\\.net_course\\biometric_attendence1\\biometrics_dataaccess\\repository\\imarkattendencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{924E72C7-B919-4F40-8997-C3DA04547CA3}|Biometrics_DataAccess\\Biometrics_DataAccess.csproj|solutionrelative:biometrics_dataaccess\\repository\\imarkattendencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\wwwroot\\js\\markattendence.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\wwwroot\\js\\markattendence.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|c:\\.net_course\\biometric_attendence1\\biometric_attendence1\\pages\\markattendence.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{480797A5-8194-4963-B21F-70CD082BDF55}|Biometric_Attendence1\\Biometric_Attendence1.csproj|solutionrelative:biometric_attendence1\\pages\\markattendence.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "DockedHeight": 332,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ManageUser.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_Models\\ManageUser.cs",
-              "RelativeDocumentMoniker": "Biometrics_Models\\ManageUser.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_Models\\ManageUser.cs",
-              "RelativeToolTip": "Biometrics_Models\\ManageUser.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAwwBkAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T13:30:23.385Z",
-              "IsPinned": true
-            },
-            {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MCreate1.cshtml",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MCreate1.cshtml",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\MCreate1.cshtml",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MCreate1.cshtml",
-              "RelativeToolTip": "Biometric_Attendence1\\Pages\\MCreate1.cshtml",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAADsAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-25T05:16:55.209Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Biometric_Attendence1\\Pages\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-25T05:03:19.339Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IMarkAttendenceRepository.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\IMarkAttendenceRepository.cs",
-              "RelativeDocumentMoniker": "Biometrics_DataAccess\\Repository\\IMarkAttendenceRepository.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\IMarkAttendenceRepository.cs",
-              "RelativeToolTip": "Biometrics_DataAccess\\Repository\\IMarkAttendenceRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T07:57:16.61Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MarkAttendence.cshtml.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MarkAttendence.cshtml.cs",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\MarkAttendence.cshtml.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MarkAttendence.cshtml.cs",
-              "RelativeToolTip": "Biometric_Attendence1\\Pages\\MarkAttendence.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T11:13:55.831Z",
-              "EditorCaption": ""
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ManageUsersRepository.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\ManageUsersRepository.cs",
-              "RelativeDocumentMoniker": "Biometrics_DataAccess\\Repository\\ManageUsersRepository.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\ManageUsersRepository.cs",
-              "RelativeToolTip": "Biometrics_DataAccess\\Repository\\ManageUsersRepository.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAiwDUAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T13:59:53.692Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IManageUsersRepository.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\IManageUsersRepository.cs",
-              "RelativeDocumentMoniker": "Biometrics_DataAccess\\Repository\\IManageUsersRepository.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\IManageUsersRepository.cs",
-              "RelativeToolTip": "Biometrics_DataAccess\\Repository\\IManageUsersRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T09:18:38.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MarkAttendenceRepository.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\MarkAttendenceRepository.cs",
-              "RelativeDocumentMoniker": "Biometrics_DataAccess\\Repository\\MarkAttendenceRepository.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\MarkAttendenceRepository.cs",
-              "RelativeToolTip": "Biometrics_DataAccess\\Repository\\MarkAttendenceRepository.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwCIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T07:57:48.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MarkAttendence.cshtml",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MarkAttendence.cshtml",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\MarkAttendence.cshtml",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MarkAttendence.cshtml",
-              "RelativeToolTip": "Biometric_Attendence1\\Pages\\MarkAttendence.cshtml",
-              "ViewState": "AQIAADQAAAAAAAAAAAAkwEkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-25T11:13:33.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TIndex2.cshtml",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\TIndex2.cshtml",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\TIndex2.cshtml",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\TIndex2.cshtml",
-              "RelativeToolTip": "Biometric_Attendence1\\Pages\\TIndex2.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAAUAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-25T05:21:41.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MCreate1.cshtml.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MCreate1.cshtml.cs",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\MCreate1.cshtml.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MCreate1.cshtml.cs",
-              "RelativeToolTip": "Biometric_Attendence1\\Pages\\MCreate1.cshtml.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA1wCQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T05:17:41.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MEdit1.cshtml",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MEdit1.cshtml",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\MEdit1.cshtml",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MEdit1.cshtml",
-              "RelativeToolTip": "Biometric_Attendence1\\Pages\\MEdit1.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADcAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-25T05:19:21.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MEdit1.cshtml.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MEdit1.cshtml.cs",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\MEdit1.cshtml.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MEdit1.cshtml.cs",
-              "RelativeToolTip": "Biometric_Attendence1\\Pages\\MEdit1.cshtml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T05:19:47.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MDelete1.cshtml.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MDelete1.cshtml.cs",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\MDelete1.cshtml.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MDelete1.cshtml.cs",
-              "RelativeToolTip": "Biometric_Attendence1\\Pages\\MDelete1.cshtml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwB4AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T05:21:01.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "MDelete1.cshtml",
               "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MDelete1.cshtml",
               "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\MDelete1.cshtml",
               "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MDelete1.cshtml",
               "RelativeToolTip": "Biometric_Attendence1\\Pages\\MDelete1.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwBUAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-25T05:20:39.026Z"
+              "WhenOpened": "2024-03-01T08:06:14.926Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Biometric_Attendence1\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAHAAAA",
+              "DocumentIndex": 1,
+              "Title": "TIndex2.cshtml",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\TIndex2.cshtml",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\TIndex2.cshtml",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\TIndex2.cshtml",
+              "RelativeToolTip": "Biometric_Attendence1\\Pages\\TIndex2.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-24T17:22:55.073Z"
+              "WhenOpened": "2024-03-01T07:38:56.127Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Biometric_Attendence1\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-01T07:30:18.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Biometric_Attendence1\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAtwFEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-01T06:51:43.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Background.js",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\js\\Background.js",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\wwwroot\\js\\Background.js",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\js\\Background.js",
+              "RelativeToolTip": "Biometric_Attendence1\\wwwroot\\js\\Background.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-01T04:34:37.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\Login.cshtml",
+              "RelativeToolTip": "Biometric_Attendence1\\Pages\\Login.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-29T15:53:58.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MEdit1.cshtml",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MEdit1.cshtml",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\MEdit1.cshtml",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MEdit1.cshtml",
+              "RelativeToolTip": "Biometric_Attendence1\\Pages\\MEdit1.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-29T15:50:18.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MCreate1.cshtml",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MCreate1.cshtml",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\MCreate1.cshtml",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MCreate1.cshtml",
+              "RelativeToolTip": "Biometric_Attendence1\\Pages\\MCreate1.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-29T15:49:39.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MIndex1.cshtml",
               "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MIndex1.cshtml",
               "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\MIndex1.cshtml",
               "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MIndex1.cshtml",
               "RelativeToolTip": "Biometric_Attendence1\\Pages\\MIndex1.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAADEAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-25T05:11:17.411Z"
+              "WhenOpened": "2024-02-29T15:41:33.512Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20240221071053_AddManageUserToDb.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Migrations\\20240221071053_AddManageUserToDb.cs",
-              "RelativeDocumentMoniker": "Biometrics_DataAccess\\Migrations\\20240221071053_AddManageUserToDb.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Migrations\\20240221071053_AddManageUserToDb.cs",
-              "RelativeToolTip": "Biometrics_DataAccess\\Migrations\\20240221071053_AddManageUserToDb.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T07:10:53.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ManageUser.js",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\js\\ManageUser.js",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\wwwroot\\js\\ManageUser.js",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\js\\ManageUser.js",
-              "RelativeToolTip": "Biometric_Attendence1\\wwwroot\\js\\ManageUser.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-02-26T09:01:18.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "TrackUsersRepository.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\TrackUsersRepository.cs",
-              "RelativeDocumentMoniker": "Biometrics_DataAccess\\Repository\\TrackUsersRepository.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\TrackUsersRepository.cs",
-              "RelativeToolTip": "Biometrics_DataAccess\\Repository\\TrackUsersRepository.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAhwBgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T13:23:11.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ITrackUsersRepositor.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\ITrackUsersRepositor.cs",
-              "RelativeDocumentMoniker": "Biometrics_DataAccess\\Repository\\ITrackUsersRepositor.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\ITrackUsersRepositor.cs",
-              "RelativeToolTip": "Biometrics_DataAccess\\Repository\\ITrackUsersRepositor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T13:14:49.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 13,
               "Title": "TrackUser.cs",
               "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_Models\\TrackUser.cs",
               "RelativeDocumentMoniker": "Biometrics_Models\\TrackUser.cs",
               "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_Models\\TrackUser.cs",
               "RelativeToolTip": "Biometrics_Models\\TrackUser.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAYwAsAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T13:30:58.903Z"
+              "WhenOpened": "2024-02-29T15:20:24.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IMarkAttendenceRepository.cs",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\IMarkAttendenceRepository.cs",
+              "RelativeDocumentMoniker": "Biometrics_DataAccess\\Repository\\IMarkAttendenceRepository.cs",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\IMarkAttendenceRepository.cs",
+              "RelativeToolTip": "Biometrics_DataAccess\\Repository\\IMarkAttendenceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T15:04:45.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MarkAttendenceRepository.cs",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\MarkAttendenceRepository.cs",
+              "RelativeDocumentMoniker": "Biometrics_DataAccess\\Repository\\MarkAttendenceRepository.cs",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\MarkAttendenceRepository.cs",
+              "RelativeToolTip": "Biometrics_DataAccess\\Repository\\MarkAttendenceRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T15:04:37.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MCreate1.cshtml.cs",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MCreate1.cshtml.cs",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\MCreate1.cshtml.cs",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MCreate1.cshtml.cs",
+              "RelativeToolTip": "Biometric_Attendence1\\Pages\\MCreate1.cshtml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T14:42:59.795Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "MarkAttendence.cshtml",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MarkAttendence.cshtml",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\MarkAttendence.cshtml",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MarkAttendence.cshtml",
+              "RelativeToolTip": "Biometric_Attendence1\\Pages\\MarkAttendence.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-29T14:40:33.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MarkAttendence.cshtml.cs",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MarkAttendence.cshtml.cs",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\MarkAttendence.cshtml.cs",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MarkAttendence.cshtml.cs",
+              "RelativeToolTip": "Biometric_Attendence1\\Pages\\MarkAttendence.cshtml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAkwCEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T14:40:23.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\Index.cshtml.cs",
               "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "Biometric_Attendence1\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T14:36:41.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Biometric_Attendence1\\Pages\\Shared\\_Layout.cshtml.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-02-29T14:36:19.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Biometric_Attendence1\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAA0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-29T13:34:55.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegistrationRepository.cs",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\RegistrationRepository.cs",
+              "RelativeDocumentMoniker": "Biometrics_DataAccess\\Repository\\RegistrationRepository.cs",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Repository\\RegistrationRepository.cs",
+              "RelativeToolTip": "Biometrics_DataAccess\\Repository\\RegistrationRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwB0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T05:03:28.275Z"
+              "WhenOpened": "2024-02-29T13:33:17.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "TIndex2.cshtml.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\TIndex2.cshtml.cs",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\TIndex2.cshtml.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\TIndex2.cshtml.cs",
-              "RelativeToolTip": "Biometric_Attendence1\\Pages\\TIndex2.cshtml.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAgwFkAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T05:22:05.151Z"
+              "DocumentIndex": 14,
+              "Title": "Index.js",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\js\\Index.js",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\wwwroot\\js\\Index.js",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\js\\Index.js",
+              "RelativeToolTip": "Biometric_Attendence1\\wwwroot\\js\\Index.js",
+              "ViewState": "AQIAABAAAAAAAAAAAAAqwBkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-02-29T13:29:41.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Program.cs",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\Program.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Program.cs",
-              "RelativeToolTip": "Biometric_Attendence1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T14:49:39.449Z"
+              "DocumentIndex": 21,
+              "Title": "MarkAttendence.js",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\js\\MarkAttendence.js",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\wwwroot\\js\\MarkAttendence.js",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\js\\MarkAttendence.js",
+              "RelativeToolTip": "Biometric_Attendence1\\wwwroot\\js\\MarkAttendence.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-02-29T13:29:36.825Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "MIndex1.cshtml.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MIndex1.cshtml.cs",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\MIndex1.cshtml.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\MIndex1.cshtml.cs",
-              "RelativeToolTip": "Biometric_Attendence1\\Pages\\MIndex1.cshtml.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBQAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T05:13:25.605Z"
+              "DocumentIndex": 16,
+              "Title": "_Layout2.cshtml",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\_Layout2.cshtml",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\_Layout2.cshtml",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\_Layout2.cshtml",
+              "RelativeToolTip": "Biometric_Attendence1\\Pages\\_Layout2.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-29T13:20:25.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Biometrics_DataAccess\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Biometrics_DataAccess\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T09:20:18.777Z"
-            },
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Biometric_Attendence1\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Biometric_Attendence1\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAADoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-29T13:06:37.941Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 68,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\appsettings.json",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\appsettings.json",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\appsettings.json",
-              "RelativeToolTip": "Biometric_Attendence1\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-15T09:33:18.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Biometrics_DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometrics_DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Biometrics_DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAuwFoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T07:13:06.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Biometric_Attendence1.csproj",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Biometric_Attendence1.csproj",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\Biometric_Attendence1.csproj",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Biometric_Attendence1.csproj",
-              "RelativeToolTip": "Biometric_Attendence1\\Biometric_Attendence1.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-15T13:13:31.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Biometric_Attendence1\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Biometric_Attendence1\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-15T13:13:55.864Z"
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

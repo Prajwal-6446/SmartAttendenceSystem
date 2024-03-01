@@ -26,5 +26,9 @@ namespace Biometric_Attendence1.Pages
             bool userExistence = _markAttendenceRepository1.UserExtistnce(id);
             return new JsonResult(new { success = userExistence });
         }
+
+        //public JsonResult OnPostMarkUserAttendence(int stID) {
+
+        //}
     }
 }

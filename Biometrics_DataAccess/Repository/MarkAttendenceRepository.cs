@@ -18,6 +18,25 @@ namespace Biometrics_DataAccess.Repository
 
         }
 
+        public Tuple<bool, string> markUserAttendence(int id)
+        {
+            try
+            {
+                string sql = @"";
+                var paramerter = new { id };
+                int fingerid = db.ExecuteScalar<int>(sql, paramerter);
+                if(fingerid == 0) {
+                    string sql2 = @"";
+
+                }
+            }
+            catch(Exception ex)
+            {
+
+            }
+            throw new NotImplementedException();
+        }
+
         public bool UserExtistnce(int fingerId)
         {
             string sql = @"select count(*) from dbo.ManageUser where FingerId=@fingerId";
@@ -33,5 +52,7 @@ namespace Biometrics_DataAccess.Repository
             }
 
         }
+
+
     }
 }

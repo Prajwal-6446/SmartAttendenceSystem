@@ -17,6 +17,7 @@ namespace Biometrics_Models
         public DateTime? TimeOut { get; set; }
         [NotMapped]
         public List<ManageUser> ManageUsers { get; set; }
+ 
     }
 }
 

@@ -1,0 +1,64 @@
+﻿@page
+@model Biometric_Attendence1.Pages.LoginModel
+<style>
+    /* Custom styles to adjust the width of form fields */
+    .custom-input {
+        width: 300px; /* Adjust the width as needed */
+    }
+
+    .custom-container {
+        max-width: 300px; /* Adjust the maximum width as needed */
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+<link rel="stylesheet" href="~/Biometric_Attendence1.styles.css" asp-append-version="true" />
+<div class="col-md-6">
+    <div class="text-start">
+        <h1 class="display-4"><i class="bi bi-person-fill-lock"></i>  Login To Your Account</h1>
+    </div>
+</div>
+<form method="post">
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Center the row -->
+            <div class="col-md-6">
+                <!-- Adjust the column size as needed -->
+                <div class="border p-3 mt-4">
+                    <div class="row pb-2 text-center form-algerian">
+                        <div class="col">
+                            <h2>Login</h2>
+                            <hr class="w-25 mx-auto">
+                        </div>
+                    </div>
+                    <div asp-validation-summary="All"></div>
+                    <div class="mb-3">
+                        <label asp-for="registration.Username"></label>
+                        <input id="Username" asp-for="registration.Username" class="form-control" />
+                        <span asp-validation-for="registration.Username" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="registration.Password"></label>
+                        <input id="Password" asp-for="registration.Password" class="form-control" />
+                        <span asp-validation-for="registration.Password" class="text-danger"></span>
+                    </div>
+                    <span class="btn-item">
+                        <button type="submit" class="btn btn-primary btn-contain btn-link text-line" style="width:150px;">Login</button>
+                        
+                    </span>
+                    <span class="btn-item">
+                        <a asp-page="Index" class="btn btn-secondary btn-contain text-line" style="width:150px;">Back to List</a>
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</form>
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+<script src="~/js/Background.js"></script>

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Biometric_Attendence1.bundle.scp.css"
     },
     {
+      "Id": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\Images\\banner.png",
+      "PackagePath": "staticwebassets\\Images\\banner.png"
+    },
+    {
       "Id": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -13,8 +17,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\js\\Background.js",
+      "PackagePath": "staticwebassets\\js\\Background.js"
+    },
+    {
+      "Id": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\js\\Index.js",
+      "PackagePath": "staticwebassets\\js\\Index.js"
+    },
+    {
       "Id": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\js\\ManageUser.js",
       "PackagePath": "staticwebassets\\js\\ManageUser.js"
+    },
+    {
+      "Id": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\js\\MarkAttendence.js",
+      "PackagePath": "staticwebassets\\js\\MarkAttendence.js"
     },
     {
       "Id": "C:\\.NET_Course\\Biometric_Attendence1\\Biometric_Attendence1\\wwwroot\\js\\site.js",

@@ -566,3 +566,4 @@ C:\.NET_Course\Biometric_Attendence1\Biometric_Attendence1\bin\Debug\net8.0\refs
 C:\.NET_Course\Biometric_Attendence1\Biometric_Attendence1\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.dll
 C:\.NET_Course\Biometric_Attendence1\Biometric_Attendence1\bin\Debug\net8.0\refs\Microsoft.JSInterop.dll
 C:\.NET_Course\Biometric_Attendence1\Biometric_Attendence1\obj\Debug\net8.0\Biometri.CA763CB1.Up2Date
+C:\.NET_Course\Biometric_Attendence1\Biometric_Attendence1\obj\Debug\net8.0\scopedcss\Pages\_Layout2.cshtml.rz.scp.css
