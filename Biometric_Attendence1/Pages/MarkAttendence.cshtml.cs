@@ -27,8 +27,13 @@ namespace Biometric_Attendence1.Pages
             return new JsonResult(new { success = userExistence });
         }
 
-        //public JsonResult OnPostMarkUserAttendence(int stID) {
+        public JsonResult OnPostMarkUserAttendence(int stID)
+        {
+            string status=string.Empty;
+            string message=string.Empty;
+            Tuple<bool,string> response=_markAttendenceRepository1.markUserAttendence(stID);
+			return new JsonResult(new { status = response.Item1,message=response.Item2 });
 
-        //}
+		}
     }
 }

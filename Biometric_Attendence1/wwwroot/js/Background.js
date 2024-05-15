@@ -1,20 +1,43 @@
-﻿// Define an array of related colors (shades of yellow and green)
-const colors = ['#FFFF00', '#FAFF00', '#E6FF00', '#CCFF00', '#B3FF00', '#99FF00', '#80FF00', '#66FF00', '#4DFF00', '#33FF00', '#1AFF00', '#00FF00'];
+﻿//// Define light shades of RGB colors
+//const colors = ['#bdc3c7', '#7f8c8d', '#3498db', '#2ecc71']; // Adjust these colors as needed
 
-// Initialize index
+//let index = 0;
+
+//function changeColor() {
+//    document.body.style.background = `linear-gradient(to right, ${colors[index]}, ${colors[(index + 1) % colors.length]})`;
+
+//    index = (index + 1) % colors.length;
+//}
+
+//// Change color every 3 seconds
+//setInterval(changeColor, 3000);
+//const colors = ['#bdffbf', '#ffebef', '#ccb0ff']; // Adjust these colors as needed
+const colors = ['#fbf7f4', '#ede4ff', '#ddcaff', '#cdb1ff'];
 let index = 0;
+let steps = 50; // Number of steps for the transition
+let currentStep = 0;
 
-// Function to change background color
 function changeColor() {
-    // Update body background color
-    document.body.style.background = `linear-gradient(45deg, ${colors[index]}, ${colors[(index + 1) % colors.length]})`;
+    const color1 = colors[index];
+    const color2 = colors[(index + 1) % colors.length];
 
-    // Update navbar background color
-    document.querySelector('.navbar').style.background = `linear-gradient(45deg, ${colors[index]}, ${colors[(index + 1) % colors.length]})`;
+    const stepR = (parseInt(color2.slice(1, 3), 16) - parseInt(color1.slice(1, 3), 16)) / steps;
+    const stepG = (parseInt(color2.slice(3, 5), 16) - parseInt(color1.slice(3, 5), 16)) / steps;
+    const stepB = (parseInt(color2.slice(5, 7), 16) - parseInt(color1.slice(5, 7), 16)) / steps;
 
-    // Increment index (with wrap-around)
-    index = (index + 1) % colors.length;
+    const newColor = `rgb(${parseInt(color1.slice(1, 3), 16) + stepR * currentStep}, 
+                         ${parseInt(color1.slice(3, 5), 16) + stepG * currentStep}, 
+                         ${parseInt(color1.slice(5, 7), 16) + stepB * currentStep})`;
+
+    document.body.style.background = `linear-gradient(to right, ${color1}, ${newColor})`;
+   document.querySelector('.navbar').style.background = newColor;
+
+    currentStep++;
+    if (currentStep > steps) {
+        currentStep = 0;
+        index = (index + 1) % colors.length;
+    }
+    setTimeout(changeColor, 100); // Adjust the timeout for smoother transition
 }
 
-// Call changeColor function every 2 seconds
-setInterval(changeColor, 2000);
+changeColor();

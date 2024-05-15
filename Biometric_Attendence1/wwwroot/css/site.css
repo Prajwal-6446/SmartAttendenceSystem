@@ -32,37 +32,36 @@ body {
     margin-right: auto;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background: linear-gradient(45deg, #FFFF00, #00FF00);
-    transition: background-color 2s;
-}
 .btn-item:hover .btn-link {
     border-radius: 40px;
-   /* box-shadow: 0 0 10px rgba(255, 255, 0, 0.5), 0 0 10px rgba(0, 255, 0, 0.5);*/
+    /* box-shadow: 0 0 10px rgba(255, 255, 0, 0.5), 0 0 10px rgba(0, 255, 0, 0.5);*/
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(45deg, #ffff00, #00ff00);
+    /*background: linear-gradient(45deg, #ffff00, #00ff00);*/
+    background: linear-gradient(45deg, #bdffbf, #e0bdff);
+    color:black;
 }
-#markAttendanceButton {
+/*#markAttendanceButton {*/
     /*border: 2px solid #fff;*/
-    border-radius: 40px; /* Adjust the border radius as needed */
-    transition: box-shadow 0.3s ease; /* Add transition for smooth animation */
+    /*border-radius: 40px;*/ /* Adjust the border radius as needed */
+    /*transition: box-shadow 0.3s ease;*/ /* Add transition for smooth animation */
+/*}*/
+
+.btn-primary {
+    border-radius: 50px;
+    background: linear-gradient(45deg, #bdffbf, #bdffbf);
+    border-color: navajowhite;
 }
-
-
 .but-contain {
     border-radius: 40px;
-    box-shadow: 0 0 10px rgba(255, 255, 0, 0.5), 0 0 10px rgba(0, 255, 0, 0.5);
+    //box-shadow: 0 0 10px rgba(255, 255, 0, 0.5), 0 0 10px rgba(0, 255, 0, 0.5);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 .text-line {
     color: black; /* Change the text color to black */
     text-decoration: none; /* Remove the underline */
-}
-.btn-primary ,.btn-secondary , btn-danger{
+
+} .btn-secondary , btn-danger{
     border-radius: 40px;
 }
 .no-space {
@@ -70,13 +69,68 @@ body {
     margin-left: 0;
 }
 
-.btn-primary {
-    background-color: #3687FF; /* Blue color */
-    border-color: #ffffff; /* White border color */
-    color: #ffffff;
+./*btn-primary {
+    background-color: #3687FF;*/ /* Blue color */
+    /*border-color: #ffffff;*/ /* White border color */
+    /*color: #ffffff;*/
      /* Text color */
-}
+/*}*/
+
 .form-algerian {
     font-family: 'Algerian', sans-serif;
     color: black;
 }
+
+.shadow {
+    transition: box-shadow 0.3s ease;
+}
+
+    .shadow:hover {
+        box-shadow: none;
+    }
+
+.custom-margin {
+    margin-top: 80px; /* Adjust the margin size as needed */
+}
+
+.custom-img {
+    width: 800px;
+    height: 700px;
+}
+
+.custom-box {
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 8px; /* Border radius */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Even darker shadow */
+    transition: box-shadow 0.3s; /* Smooth transition effect */
+}
+
+    .custom-box:hover {
+        box-shadow: none; /* Remove shadow on hover */
+    }
+
+
+
+.clock-container {
+    position: relative;
+    border: 2px solid #fff;
+    /* border-radius: 50% / 10%; */ /* Decrease border radius as needed */
+    border-radius: 40px;
+    padding: 10px; /* Decrease padding as needed */
+    background: linear-gradient(45deg, #bdffbf, #e0bdff); /* Gradient from yellow to green */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Adjust shadow effect as needed */
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Add space between items */
+}
+
+
+
+#clock {
+    text-align: right;
+    margin-bottom: 0;
+    font-size: 30px; /* Adjust the font size as needed */
+}
+
+
+ 

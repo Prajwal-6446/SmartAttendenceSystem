@@ -1,54 +1,104 @@
 ﻿@page
 @model Biometric_Attendence1.Pages.TIndex2Model
 <link rel="stylesheet" href="~/Biometric_Attendence1.styles.css" asp-append-version="true" />
-<div class="container p-3 text-primary">
-	<div class="row pt-4">
-		<div class="row pb-2 text-center form-algerian">
+
+<div class="container p-3 ">
+	<div class="row justify-content-between mb-5">
+	<div class="col-md-6">
+		<!-- Left-aligned content -->
+		<div class="row pb-2 form-algerian">
 			<div class="col">
-				<h2>"Track User Activity</h2>
-				<hr class="w-25 mx-auto">
+					<h1 class="display-4">Track User Activity</h1>
+
 			</div>
 		</div>
 	</div>
-	<br /><br />
-	<p>Current Date: @DateTime.Today.ToShortDateString()</p>
+	<div class="col-md-3 ">
+		<!-- Right-aligned content -->
+		<div class="clock-container text-center">
+			<i class="bi bi-calendar-check fs-4"></i>
+			<span id="clock" style="font-size: 20px;">Current Date: @DateTime.Today.ToShortDateString()</span>
+		</div>
+	</div>
+</div>
+</div>
+@Html.AntiForgeryToken()
+<div class="container p-3 ">
+	<div class="row justify-content-center mb-5">
+		<div class="col-md-1">
+			<div class="row pb-2 justify-content-center">
+				<div class="mb-3">
+					<label>ID</label>
+					<input id="userId" type="text" class="form-control" />
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="row pb-2 justify-content-center">
+				<div class="mb-3">
+					<label>From</label>
+					<input id="fromDate" type="date" class="form-control" />
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="row pb-2 justify-content-center">
+				<div class="mb-3">
+					<label>To</label>
+					<input id="toDate" type="date" class="form-control" />
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="row pb-2 justify-content-center">
+				<div class="mb-3 btn-item">
+					<div> -- </div>
+					<button id="search" type ="submit" class="btn btn-primary btn-contain btn-link text-line" style="width:150px;">Search</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2 ">
+		<div class="row pb-2 justify-content-center">
+				<div class="mb-3 btn-item ">
+				<div> Export to Excel</div>
+					<button id="exportButton" type="submit" class="btn btn-primary btn-contain btn-link text-line" style="width:150px;">Export</button>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
 	<table id="Data_table" class="table table-bordered table-striped " style="width:100%">
 		<thead>
 			<tr>
-				<th>UserID</th>
+				<th> Sr.No</th>
+				<th>ID</th>
+				<th>Date</th>
 				<th>Name</th>
-				<th>Gender</th>
 				<th>FingerId</th>
 				<th>TimeIn </th>
 				<th>TimeOut </th>
+				<th>Attendence </th>
 			</tr>
 		</thead>
 		<tbody>
-			@foreach (var obj in Model.TrackUsers)
+			@foreach (var obj in Model.ManageUser)
 			{
 				<tr>
-					<td width="30%">@obj.Id</td>
-					<td width="30%">@obj.ManageUser.Name</td>
-					<td width="10%">@obj.ManageUser.Gender</td>
-					<td width="30%">@obj.ManageUser.FingerId</td>
-					<td width="30%">@obj.TimeIn</td>
-					<td width="30%">@obj.TimeOut</td>
-					@* <td>
-						<div class="w-75 btn-group" role="group">
-							<a asp-page="Edit" asp-route-id="@obj.Id" class="btn-primary mx-2">
-								<i class="bi bi-pencil-square"></i>
-							</a>
-							<a asp-page="Delete" asp-route-id="@obj.Id" class="btn-danger mx-2">
-								<i class="bi bi-trash3"></i>
-							</a>
-						</div>
-					</td> *@
+				   <td width="10%">@obj.Id</td>
+					<td width="10%">@obj.TrackUser.ManageUserId</td>
+					<td width="20%">@obj.TrackUser.date?.ToString("dd-MM-yyyy")</td>
+					<td width="30%">@obj.Name</td>
+					<td width="10%">@obj.FingerId</td>
+					<td width="30%">@obj.TrackUser.TimeIn?.ToString(@"hh\:mm\:ss")</td>
+					<td width="30%">@obj.TrackUser.TimeOut?.ToString(@"hh\:mm\:ss")</td>
+					<td width="30%">@obj.TrackUser.Attendence</td>
+
 				</tr>
 			}
 		</tbody>
 	</table>
-</div>
+
 @section Scripts {
 	<script src="~/js/ManageUser.js"></script>
-	<script src="~/js/Background.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.13/xlsx.full.min.js"></script>
 }

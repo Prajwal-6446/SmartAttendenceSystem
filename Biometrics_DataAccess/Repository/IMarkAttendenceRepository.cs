@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Biometrics_Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,5 +12,7 @@ namespace Biometrics_DataAccess.Repository
         public bool UserExtistnce(int id);
 
         public Tuple<bool,string>markUserAttendence(int id);
+
+        public IEnumerable<Filtereddata> GetFilteredData(int? id, string? toDate, string? fromDate);
     }
 }

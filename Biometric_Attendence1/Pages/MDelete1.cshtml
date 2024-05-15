@@ -1,45 +1,44 @@
 ﻿@page
 @model Biometric_Attendence1.Pages.MDelete1Model
-@if (TempData["Success"] != null)
-{
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
-	<script type="text/javascript">
-		toastr.success('@TempData["Success"]');
-	</script>
-}
 
+<div class="container">
+    <div class="row justify-content-center">
+        <!-- Center the row -->
+        <div class="col-md-4">
+            <!-- Adjust the column size as needed -->
+            <form method="post">
+                <input hidden asp-for="ManageUser.Id" />
+                <div class="border p-3 mt-4 custom-margin custom-box">
+                    <div class="row pb-2 text-center form-algerian">
+                        <div class="col">
+                            <h2>Delete User</h2>
+                            <hr class="w-25 mx-auto">
+                        </div>
+                    </div>
 
-<form method="post">
-	<input hidden asp-for="ManageUser.Id" />
-	<div class="border p-3 mt-4">
-		<div class="row pb-2 text-center form-algerian">
-           <div class="col">
-                <h2>Delete User</h2>
-                <hr class="w-25 mx-auto">
-           </div>
-         </div>
+                    <div class="mb-3">
+                        <label asp-for="ManageUser.Name"></label>
+                        <input asp-for="ManageUser.Name" disabled class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="ManageUser.FingerId"></label>
+                        <input asp-for="ManageUser.FingerId" id="fingerId" disabled class="form-control" />
+                    </div>
 
-		<div class="mb-3">
-			<label asp-for="ManageUser.Name"></label>
-			<input asp-for="ManageUser.Name" disabled class="form-control" />
-		</div>
-		<div class="mb-3">
-			<label asp-for="ManageUser.FingerId"></label>
-			<input asp-for="ManageUser.FingerId" disabled class="form-control" />
-		</div>
+                    <div class="btn-group">
+                        <div class="btn-item">
+                            <button type="submit" id="Delete" class="btn btn-primary btn-contain btn-link text-line" style="width:150px;">Delete</button>
+                        </div>
+                        <div class="btn-item">
+                            <a asp-page="MIndex1" class="btn btn-secondary btn-contain text-line" style="width:150px;">Back to List</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
-        <div class="btn-group">
-            <div class="btn-item">
-                <button type="submit" id="Delete"  class="btn btn-primary btn-contain btn-link text-line" style="width:150px;">Create</button>
-            </div>
-            <div class="btn-item">
-                <a asp-page="MIndex1" class="btn btn-secondary btn-contain text-line" style="width:150px;">Back to List</a>
-            </div>
-        </div
-	</div>
-</form>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
@@ -47,34 +46,68 @@
 
         $("#Delete").on("click", function (e) {
             e.preventDefault(); // Prevent the default form submission
-            debugger;
+           debugger;
             var fingerId = $("#fingerId").val();
 
             // Make an AJAX POST request to the NodeMCU server to capture the fingerprint
             $.ajax({
-                url: 'http://192.168.0.198/deleteFingerprint', // Replace with your NodeMCU IP address and endpoint
+                url: 'http://192.168.43.14/deleteFingerprint', // Replace with your NodeMCU IP address and endpoint
                 type: 'POST',
                 data: { fingerId: fingerId }, // Send the finger ID to the server
                 success: function (response) {
                     debugger;
                     if (response == "-1") {
-                        alert('error capturing fingerprint')
+                        alert('error deleting fingerprint')
 
                     }
                     else {
-                        alert('Fingerprint captured successfully', response.fingerprintID);
-                        console.log(response)
-                        SendDataToServer(response, fingerId, name, gender, date)
+                    
+                        alert('Fingerprint deleted successfully', response.fingerprintID);
+                        console.log(response);
+                        DeleteFromServer(fingerId)
                     }
                 },
                 error: function (xhr, status, error) {
-                    console.error('Error capturing fingerprint:', error); // Log any errors
+                    console.error('Error deleting fingerprint:', error); // Log any errors
                     // Handle errors, e.g., display an error message
                 }
             });
         });
 
     });
+
+    function DeleteFromServer(fingerId) {
+        debugger;
+        $.ajax({
+            type: "POST",
+            url: "/MDelete1?Handler=DeleteUsers", // Replace with your actual controller and action
+            data: { fingerId: fingerId}, // Pass the array directly
+            beforeSend: function (xhr) {
+                xhr.setRequestHeader("XSRF-TOKEN",
+                    $('input:hidden[name="__RequestVerificationToken"]').val());
+            },
+
+            success: function (response) {
+                debugger;
+                if (response.success) {
+                    alert(response.message);
+                    window.location.href = '/MIndex1';
+                }
+                else {
+                    alert(response.message);
+                }
+
+            },
+            error: function (error) {
+                // Handle error response from the server
+                alert("Error occurred during the AJAX request.");
+                console.error(error);
+            }
+        });
+
+    }
+
+
    </script>
 <script src="~/js/Background.js"></script>
 

@@ -12,12 +12,31 @@ namespace Biometrics_Models
     {
         public int Id { get; set; }
         public int ManageUserId { get; set; }
-        public ManageUser ManageUser { get; set; }
-        public DateTime TimeIn { get; set; }
-        public DateTime? TimeOut { get; set; }
+        public ManageUser ManageUser { get; set; }  //foreign key from manage user table 
+        public string? Attendence { get; set; } 
+        public TimeSpan? TimeIn { get; set; }
+        public TimeSpan? TimeOut { get; set; }
         [NotMapped]
-        public List<ManageUser> ManageUsers { get; set; }
+        public List<ManageUser>? ManageUsers { get; set; }
+        public DateTime? date { get; set; }
  
     }
+
+    public class Time
+    {
+        public TimeSpan? TimeIn { get; set; }
+        public TimeSpan? TimeOut { get; set;}
+    }
+
+    public class Filtereddata { 
+        public int? Id { get; set; }
+        public long? SrNo { get ; set; } 
+        public string? name { get; set;}
+        public DateTime? date { get; set;}
+        public int? fingerId { get; set;}
+		public TimeSpan? TimeIn { get; set; }
+		public TimeSpan? TimeOut { get; set; }
+	}
+
 }
 

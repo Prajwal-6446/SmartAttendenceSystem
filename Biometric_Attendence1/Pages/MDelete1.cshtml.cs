@@ -13,23 +13,21 @@ namespace Biometric_Attendence1.Pages
 		{
 			_db = db;
 		}
-		public void OnGet(int? id)
+		public void OnGet(int? Id)
 		{
-			ManageUser = _db.Find(id.GetValueOrDefault());
+			ManageUser = _db.Find(Id.GetValueOrDefault());
 		}
 
-		public async Task<IActionResult> OnPost(int? id)//using iactn becoz i need to return to some page or redirect to view
+		public JsonResult OnPostDeleteUsers(int? FingerId)//using iactn becoz i need to return to some page or redirect to view
 		{
 
 
-			if (id == null)
+			if ( FingerId != null)
 			{
-				return NotFound();
+				_db.Remove(FingerId.GetValueOrDefault());
 			}
 
-			_db.Remove(id.GetValueOrDefault());
-			TempData["Success"] = "User Deleted Successfully";
-			return RedirectToPage("MIndex1");
+			return new JsonResult(new { success = true, message = "successfully deleted the details" });
 		}
 	}
 }

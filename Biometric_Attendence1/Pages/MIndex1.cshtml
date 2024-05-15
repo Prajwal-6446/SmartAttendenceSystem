@@ -1,22 +1,22 @@
 ﻿@page
 @model Biometric_Attendence1.Pages.MIndex1Model
-<div class="container p-3 text-primary">
+<div class="container p-3 ">
 	<div class="row pt-4">
 		<div class="col">
-			<div class="row pb-2 form-algerian">
-				<div class="col">
-					<h2>Registered Users </h2>
+			<div class="row ">
+				<div class="display-4 form-algerian">
+					<h1 class="display-4"> Registered Users </h1>
 				</div>
 			</div>
 			<div class="row justify-content-end">
-				<div class="col-6 text-end">
+				<div class="col-5 text-end">
 					<span class="btn-item">
 						<a asp-page="MCreate1" class="btn btn-primary btn-contain btn-link text-line">
 							<i class="bi bi-person-plus-fill"></i> &nbsp; Add New User
 						</a>
 					</span>
 					<span class="btn-item">
-						<a asp-page="TIndex2" class="btn btn-primary btn-contain btn-link text-line">
+						<a asp-page="TIndex2" class="btn  btn-primary btn-contain btn-link text-line">
 							<i class="bi bi-person-check-fill"></i> &nbsp; Track User
 						</a>
 					</span>
@@ -52,7 +52,7 @@
 					<td width="20%">@obj.Date.ToString("MM-dd-yyyy")</td>
 					<td>
 						<span class ="col-6 text-end btn-item">
-								<a asp-page="MEdit1" asp-route-id="@obj.Id" class="btn btn-primary btn-contain btn-link text-line">
+						<a asp-page="MEdit1" asp-route-id="@obj.Id" class="btn btn-primary btn-contain btn-link text-line">
 								Edit
 								<i class="bi bi-pencil-square"></i>
 								</a>
@@ -68,9 +68,6 @@
 			}
 		</tbody>
 	</table>
-</div>
 @section Scripts{
 	<script src="~/js/ManageUser.js"></script>
 }
-
-<script src="~/js/Background.js"></script>

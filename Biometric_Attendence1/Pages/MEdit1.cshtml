@@ -1,66 +1,66 @@
 ﻿@page
 @model Biometric_Attendence1.Pages.MEdit1Model
-@if (TempData["Success"] != null)
-{
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
-	<script type="text/javascript">
-			toastr.success('@TempData["Success"]');
-	</script>
-}
+
 <link rel="stylesheet" href="~/Biometric_Attendence1.styles.css" asp-append-version="true" />
-<form method="post">
-	<input hidden asp-for="ManageUser.Id" />
-	<div class="border p-3 mt-4">
-		<div class="row pb-2 text-center form-algerian">
+<div class="container">
+    <div class="row justify-content-center">
+        <!-- Center the row -->
+        <div class="col-md-4">
+            <!-- Adjust the column size as needed -->
+            <form method="post">
+                <input hidden asp-for="ManageUser.Id" />
+                <div class="border p-3 mt-4 custom-margin custom-box">
+                    <div class="row pb-2 text-center form-algerian">
                         <div class="col">
                             <h2>Edit User</h2>
                             <hr class="w-25 mx-auto">
                         </div>
                     </div>
-		
-		<div class="mb-3">
-			<label asp-for="ManageUser.Name"></label>
-			<input asp-for="ManageUser.Name" class="form-control" />
-			<span asp-validation-for="ManageUser.Name" class="text-danger"></span>
-		</div>
-		<div class="mb-3">
-			<label asp-for="ManageUser.FingerId"></label>
-			<input asp-for="ManageUser.FingerId" disabled class="form-control" />
-		</div>
-		<div class="mb-3">
-			<label asp-for="ManageUser.Gender">Gender:</label>
-			<label>
-				<input asp-for="ManageUser.Gender" type="radio" value="Male" /> Male
-			</label>
 
-			<label>
-				<input asp-for="ManageUser.Gender" type="radio" value="Female" /> Female
-			</label>
+                    <div class="mb-3">
+                        <label asp-for="ManageUser.Name"></label>
+                        <input asp-for="ManageUser.Name" class="form-control" />
+                        <span asp-validation-for="ManageUser.Name" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="ManageUser.FingerId"></label>
+                        <input asp-for="ManageUser.FingerId" disabled class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="ManageUser.Gender">Gender:</label>
+                        <label>
+                            <input asp-for="ManageUser.Gender" type="radio" value="Male" /> Male
+                        </label>
 
-			<label>
-				<input asp-for="ManageUser.Gender" type="radio" value="Other" /> Other
-			</label>
+                        <label>
+                            <input asp-for="ManageUser.Gender" type="radio" value="Female" /> Female
+                        </label>
 
-			<span asp-validation-for="ManageUser.Gender" class="text-danger"></span>
-		</div>
-		<div class="mb-3">
-			<label asp-for="ManageUser.Date"></label>
-			<input asp-for="ManageUser.Date" class="form-control" />
-			<span asp-validation-for="ManageUser.Date" class="text-danger"></span>
-		</div>
-		<div class="btn-group">
-            <div class="btn-item">
-                <button type="submit" class="btn btn-primary btn-contain btn-link text-line" style="width:150px;">Create</button>
-            </div>
-            <div class="btn-item">
-                <a asp-page="MIndex1" class="btn btn-secondary btn-contain text-line" style="width:150px;">Back to List</a>
-            </div>
-        </div
-		
-	</div>
-</form>
+                        <label>
+                            <input asp-for="ManageUser.Gender" type="radio" value="Other" /> Other
+                        </label>
+
+                        <span asp-validation-for="ManageUser.Gender" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="ManageUser.Date"></label>
+                        <input asp-for="ManageUser.Date" class="form-control" />
+                        <span asp-validation-for="ManageUser.Date" class="text-danger"></span>
+                    </div>
+                    <div class="btn-group">
+                        <div class="btn-item">
+                            <button type="submit" class="btn btn-primary btn-contain btn-link text-line" style="width:150px;">Edit</button>
+                        </div>
+                        <div class="btn-item">
+                            <a asp-page="MIndex1" class="btn btn-secondary btn-contain text-line" style="width:150px;">Back to List</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
 
 @section Scripts {
 	@{

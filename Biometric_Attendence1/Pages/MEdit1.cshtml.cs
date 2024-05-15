@@ -26,9 +26,10 @@ namespace Biometric_Attendence1.Pages
 
 		public async Task<IActionResult> OnPost(int id)
 		{
-
-			_db.Update(ManageUser); // Run the synchronous method asynchronously
             TempData["Success"] = "User Edited Successfully";
+
+            _db.Update(ManageUser); // Run the synchronous method asynchronously
+
             return RedirectToPage("MIndex1");
 
 		}
