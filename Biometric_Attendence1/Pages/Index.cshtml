@@ -3,62 +3,40 @@
 @{
     ViewData["Title"] = "Home page";
 }
-<style>
-    .custom-margin {
-        margin-top: 80px; /* Adjust the margin size as needed */
-    }
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3 nav-link ">
+        <div class="container">
+            <a class="navbar-brand">
+                <i class="bi bi-fingerprint fs-4"></i>
+                SMART ATTENDENCE SYSTEM
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    .custom-img {
-        width: 800px;
-        height: 700px;
-    }
-
-    .custom-box {
-        border: 1px solid #ced4da; /* Border color */
-        border-radius: 8px; /* Border radius */
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Even darker shadow */
-        transition: box-shadow 0.3s; /* Smooth transition effect */
-    }
-
-      .custom-box:hover {
-            box-shadow: none; /* Remove shadow on hover */
-        }
-
-    .clock-container {
-        position: relative;
-        border: 2px solid #fff;
-         /* border-radius: 50% / 10%; */  /* Decrease border radius as needed */
-        border-radius: 40px;
-        padding: 10px; /* Decrease padding as needed */
-        background: linear-gradient(45deg, #FFFF00, #00FF00); /* Gradient from yellow to green */
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Adjust shadow effect as needed */
-        display: flex; /* Use flexbox to align items */
-        align-items: center; /* Align items vertically */
-        justify-content: space-between; /* Add space between items */
-    }
-
-    .logo {
-        margin-right: 2px; 
-    }
-
-    #clock {
-        text-align: right;
-        margin-bottom: 0;
-        font-size: 30px; /* Adjust the font size as needed */
-    }
-
-    .text-primary {
-        color: #007bff; /* Primary text color (blue), you can change it to your preferred color */
-        font-size: 24px; /* Adjust font size as needed */
-    }
-
-    hr {
-        border-top: 2px solid #007bff; /* Horizontal line color (blue), same as text color */
-    }
-
- 
-
-</style>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <!-- Your existing navigation items go here -->
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item btn-item">
+                        <a class="nav-link text-dark btn-link " asp-area="" asp-page="/Login">
+                            LOGIN
+                            <i class="bi bi-lock-fill fs-4"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item btn-style btn-item">
+                        <a class="nav-link text-dark  btn-link " asp-area="" asp-page="/Index">
+                            SIGN UP
+                            <i class="bi bi-person-fill-add fs-4"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
 
 <link rel="stylesheet" href="~/Biometric_Attendence1.styles.css" asp-append-version="true" />
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -66,12 +44,12 @@
 <div class="row">
     <div class="col-md-5">
         <div class="text-start ">
-            <h1 class="display-4">Create Your New Account</h1>
+            <h1 class="display-4">Join us today!</h1>
         </div>
     </div>
     <div class="col-md-3">
         <!-- Adjust column size to decrease overall size -->
-        <div class="clock-container">
+        <div class="clock-container ">
             <i class="bi bi-alarm-fill fs-4 logo"></i> <!-- Add logo class here -->
             <span id="clock"></span>
         </div>
@@ -102,7 +80,7 @@
             </div>
             <div class="modal-footer btn-item">
                 <!-- Button to mark attendance -->
-                <button type="button" class="btn btn-primary btn-link but-contain text-line" id="markAttendence">Mark Attendance</button>
+                <button type="button" class="btn btn-link but-contain text-line" id="markAttendence">Mark Attendance</button>
                 <button type="button" class="btn btn-secondary but-contain text-line" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
@@ -116,37 +94,39 @@
         <div class="col-lg-4">
             <div class="border p-3 custom-margin custom-box">
                 <div class="custom-container">
-                    <div class="row pb-2 text-center form-algerian">
+                    <div class="row pb-2 text-center">
                         <div class="col">
-                            <h2>Registeration</h2>
+                            <h1 class="display-4">
+                                Registeration</h1>
                             <hr class="w-25 mx-auto">
                         </div>
                 </div>
-                <div asp-validation-summary="All"></div>
-                <div class="mb-3">
-                    <label asp-for="registration.Username"></label>
-                    <input asp-for="registration.Username" class="form-control form-control-sm custom-input" />
-                    <span asp-validation-for="registration.Username" class="text-danger"></span>
-                </div>
-                <div class="mb-3">
-                    <label asp-for="registration.Email"></label>
-                    <input asp-for="registration.Email" class="form-control form-control-sm custom-input" />
-                    <span asp-validation-for="registration.Email" class="text-danger"></span>
-                </div>
-                <div class="mb-3">
-                    <label asp-for="registration.Password"></label>
-                    <input id="password" asp-for="registration.Password" class="form-control form-control-sm custom-input" />
-                    <span asp-validation-for="registration.Password" class="text-danger"></span>
-                </div>
-                <div class="mb-3">
-                    <label asp-for="registration.confirmPassword"></label>
-                    <input id="confirmPassword" asp-for="registration.confirmPassword" class="form-control form-control-sm custom-input" />
-                    <span asp-validation-for="registration.confirmPassword" class="text-danger"></span>
-                    <span id="passwordMatchError" class="text-danger" style="display:none;">Passwords don't match.....</span>
-                </div>
+               @*  < div asp-validation-summary="All"> *@
+                    <div class="mb-3">
+                        <label asp-for="registration.Username"></label>
+                        <input asp-for="registration.Username" class="form-control form-control-sm custom-input" required />
+                        <span asp-validation-for="registration.Username" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="registration.Email"></label>
+                        <input asp-for="registration.Email" class="form-control form-control-sm custom-input" />
+                        <span asp-validation-for="registration.Email" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="registration.Password"></label>
+                        <input id="password" asp-for="registration.Password" class="form-control form-control-sm custom-input" required />
+                        <span asp-validation-for="registration.Password" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="registration.confirmPassword"></label>
+                        <input id="confirmPassword" asp-for="registration.confirmPassword" class="form-control form-control-sm custom-input" required />
+                        <span asp-validation-for="registration.confirmPassword" class="text-danger"></span>
+                        <span id="passwordMatchError" class="text-danger" style="display:none;">Passwords don't match.</span>
+                    </div>
+
                     <div class="text-center btn-item">
-                        <button type="submit" onclick="validatePassword();" class="btn btn-primary btn-contain btn-link text-line" style="width:150px;">Register</button>
-                        </div>
+                        <button type="submit" class="btn btn-primary btn-contain btn-link text-line" style="width:150px;">Register</button>
+                    </div>
                     
             </div>
         </div>
@@ -163,6 +143,7 @@
     @{
         <partial name="_ValidationScriptsPartial" />
     }
+
 }
 <script src="~/js/Index.js"></script>
 <script src="~/js/MarkAttendence.js"></script>

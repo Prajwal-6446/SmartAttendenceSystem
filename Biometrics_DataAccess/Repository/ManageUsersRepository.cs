@@ -55,10 +55,10 @@ namespace Biometrics_DataAccess.Repository
 	
 		}
 
-		public void Remove(int id)
+		public void Remove(int FingerId)
 		{
-			var sql = "DELETE FROM ManageUser WHERE Id = @Id";
-			db.Execute(sql, new { id });
+			var sql = "DELETE FROM ManageUser WHERE FingerId = @FingerId";
+			db.Execute(sql, new { FingerId });
 		}
 
 		public ManageUser Update(ManageUser manageUser)

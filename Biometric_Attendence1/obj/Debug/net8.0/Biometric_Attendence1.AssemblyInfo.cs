@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Biometric_Attendence1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebf7b9bf57e07ca0cc7b549c5af3ccf78414987a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c03f0324dc0cc39bca8342e93fba0eaf2040242")]
 [assembly: System.Reflection.AssemblyProductAttribute("Biometric_Attendence1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Biometric_Attendence1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

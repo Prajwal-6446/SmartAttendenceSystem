@@ -25,13 +25,14 @@ namespace Biometric_Attendence1.Pages
             var userExist = _rd.UserExist(registration.Username, registration.Password);
             if (userExist)
             {
+                //TempData["Success"] = "Login Successfully";
                 return RedirectToPage("/MIndex1");
             }
             else
             {
-                return RedirectToPage("/Index");
+                TempData["Error"] = "Invalid Username Or Password ";
+                return Page();
             }
         }
     }
     }
-

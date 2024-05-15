@@ -236,6 +236,10 @@
               "target": "Package",
               "version": "[2.1.28, )"
             },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
             "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
               "target": "Package",
               "version": "[8.0.2, )"

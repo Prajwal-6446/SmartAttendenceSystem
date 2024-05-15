@@ -1,69 +1,70 @@
 ﻿@page
 @model Biometric_Attendence1.Pages.MCreate1Model
 @Html.AntiForgeryToken()
-@if (TempData["Success"] != null)
-{
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
-    <script type="text/javascript">
-        toastr.success('@TempData["Success"]');
-    </script>
-}
+
 <link rel="stylesheet" href="~/Biometric_Attendence1.styles.css" asp-append-version="true" />
-<form method="post" id="addEmployeeForm ">
 
-    <input type="hidden" name="__RequestVerificationToken" value="@Html.AntiForgeryToken()">
-    <div class="border p-3 mt-4">
-        <div class="row pb-2 text-center form-algerian">
-            <div class="col">
-                <h2>Add new User</h2>
-                <hr class="w-25 mx-auto">
-            </div>
-        </div>
-        <div asp-validation-summary="All"></div>
-        <div class="mb-3">
-            <label asp-for="manageUser.Name"></label>
-            <input id="name" asp-for="manageUser.Name" class="form-control" />
-            <span asp-validation-for="manageUser.Name" class="text-danger"></span>
-        </div>
-        <div class="mb-3">
-            <label asp-for="manageUser.Gender" for="genderField">Gender:</label>
-            <div>
-                <label>
-                    <input class="genderField" asp-for="manageUser.Gender" type="radio" value="Male" /> Male
-                </label>
+<form method="post" id="addEmployeeForm">
+<div class="container">
+    <div class="row justify-content-center">
+        <!-- Center the row -->
+        <div class="col-md-5">
+            <!-- Adjust the column size as needed -->
+                <input type="hidden" name="__RequestVerificationToken" value="@Html.AntiForgeryToken()">
+                <div class="border p-3 mt-4 custom-margin custom-box">
+                    <div class="row pb-2 text-center form-algerian">
+                        <div class="col">
+                            <h2>Add new User</h2>
+                            <hr class="w-25 mx-auto">
+                        </div>
+                    </div>
+                    <div asp-validation-summary="All"></div>
+                    <div class="mb-3">
+                        <label asp-for="manageUser.Name"></label>
+                        <input id="name" asp-for="manageUser.Name" class="form-control" required />
+                        <span asp-validation-for="manageUser.Name" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="manageUser.Gender" for="genderField">Gender:</label>
+                        <span>
+                            <label>
+                                <input class="genderField" asp-for="manageUser.Gender" type="radio" value="Male" required /> Male
+                            </label>
 
-                <label>
-                    <input class="genderField" asp-for="manageUser.Gender" type="radio" value="Female" /> Female
-                </label>
+                            <label>
+                                <input class="genderField" asp-for="manageUser.Gender" type="radio" value="Female" required /> Female
+                            </label>
 
-                <label>
-                    <input class="genderField" asp-for="manageUser.Gender" type="radio" value="Other" /> Other
-                </label>
-            </div>
-            <span asp-validation-for="manageUser.Gender" class="text-danger"></span>
-        </div>
+                            <label>
+                                <input class="genderField" asp-for="manageUser.Gender" type="radio" value="Other" required /> Other
+                            </label>
+                        </span>
+                        <span asp-validation-for="manageUser.Gender" class="text-danger"></span>
+                    </div>
 
-
-        <div class="mb-3">
-            <label asp-for="manageUser.FingerId"></label>
-            <input id="fingerId" asp-for="GetfingerId.fingerId" class="form-control" disabled />
+                    <div class="mb-3">
+                        <label asp-for="manageUser.FingerId"></label>
+                        <input id="fingerId" asp-for="GetfingerId.fingerId" class="form-control" disabled />
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="manageUser.Date"></label>
+                        <input id="date" asp-for="manageUser.Date" class="form-control" type="date" required />
+                        <span asp-validation-for="manageUser.Date" class="text-danger"></span>
+                    </div>
+                    <div class="btn-group">
+                        <div class="btn-item">
+                            <button type="submit" id="Create" class="btn btn-primary btn-contain btn-link text-line" style="width:150px;">Add</button>
+                        </div>
+                        <div class="btn-item">
+                            <a asp-page="MIndex1" class="btn btn-secondary btn-contain text-line" style="width:150px;">Back to List</a>
+                        </div>
+                    </div>
+                </div>
         </div>
-        <div class="mb-3">
-            <label asp-for="manageUser.Date"></label>
-            <input id="date" asp-for="manageUser.Date" class="form-control" type="date" />
-            <span asp-validation-for="manageUser.Date" class="text-danger"></span>
-        </div>
-        <div class="btn-group">
-            <div class="btn-item">
-                <button type="submit" id="Create" class="btn btn-primary btn-contain btn-link text-line" style="width:150px;">Create</button>
-            </div>
-            <div class="btn-item">
-                <a asp-page="MIndex1" class="btn btn-secondary btn-contain text-line" style="width:150px;">Back to List</a>
-            </div>
-        </div>
+    </div>
+</div>
 </form>
+
 @section Scripts {
     @{
         <partial name="_ValidationScriptsPartial" />
@@ -75,7 +76,7 @@
 
         $("#Create").on("click", function (e) {
             e.preventDefault(); // Prevent the default form submission
-            debugger;
+            //debugger;
             var fingerId = $("#fingerId").val();  // Get the finger ID from the form input\
             var name = $("#name").val();
             var gender = $(".genderField").val();
@@ -84,7 +85,7 @@
 
             // Make an AJAX POST request to the NodeMCU server to capture the fingerprint
             $.ajax({
-                url: 'http://192.168.0.198/captureFingerprint', // Replace with your NodeMCU IP address and endpoint
+                url: 'http://192.168.43.14/captureFingerprint', // Replace with your NodeMCU IP address and endpoint
                 type: 'POST',
                 data: { fingerId: fingerId }, // Send the finger ID to the server
                 success: function (response) {
@@ -94,6 +95,7 @@
 
                     }
                     else {
+                        toastr.success("User Added Successfully");
                         alert('Fingerprint captured successfully', response.fingerprintID);
                         console.log(response)
                         SendDataToServer(response, fingerId, name, gender, date)
@@ -117,7 +119,7 @@
     });
 
     function SendDataToServer(hasvalue, fingerId, name, gender, date) {
-        debugger;
+        //debugger;
         $.ajax({
             type: "POST",
             url: "/MCreate1?Handler=AddUsers", // Replace with your actual controller and action

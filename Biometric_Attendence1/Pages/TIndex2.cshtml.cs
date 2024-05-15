@@ -1,7 +1,10 @@
+using Azure;
 using Biometrics_DataAccess.Repository;
 using Biometrics_Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using OfficeOpenXml;
+using System.Data;
 
 namespace Biometric_Attendence1.Pages
 {
@@ -9,115 +12,51 @@ namespace Biometric_Attendence1.Pages
     {
 		private readonly ITrackUsersRepository _tb;
 		private readonly IManageUsersRepository _db;
+		private readonly IMarkAttendenceRepository _markAttendenceRepository;
 		public IEnumerable<TrackUser> TrackUsers { get; set; }
-		public TIndex2Model(ITrackUsersRepository tb, IManageUsersRepository db)
+		public IEnumerable<Filtereddata> filterResult { get; set; }
+		public List<ManageUser> ManageUser = new List<ManageUser>();
+
+        public TIndex2Model(ITrackUsersRepository tb, IManageUsersRepository db,IMarkAttendenceRepository markAttendenceRepository)
 		{
 			_db = db;
 			_tb = tb;
+			_markAttendenceRepository = markAttendenceRepository;
 		}
 
 		public void OnGet(int id = 0)
 		{
-			List<ManageUser> ManageUser = _tb.GetUsersOnTrackingUsers(id);
-			_tb.GetAll();
-			TrackUsers = _tb.GetAll(); //retrieve all the list of categories from db and store that in categories varible (array)
+			 ManageUser = _tb.GetUsersOnTrackingUsers(id);
+			
+            //_tb.GetAll();
+            //TrackUsers = _tb.GetAll(); //retrieve all the list of categories from db and store that in categories varible (array)
+        }
+		
+		public JsonResult OnPostGetFilteredData(int? id, string? toDate, string? fromDate)
+		{
+			filterResult=_markAttendenceRepository.GetFilteredData(id, toDate, fromDate);
+			return new JsonResult(filterResult.ToList());
 		}
-		//public IActionResult OnPostCaptureFingerprint()
+
+		//public IActionResult OnGetExportToExcel()
 		//{
-		//    // Capture fingerprint data (replace this with your actual logic to capture fingerprint data)
-		//    int fingerprintData = CaptureFingerprintData();
+		//	// Assuming dataTable is properly filled with data
+		//	DataTable dataTable = new DataTable();
+		//	// Fill the DataTable with your data (replace this with your actual data retrieval logic)
 
-		//    // Assuming you have a user context (e.g., from authentication)
-		//    var userId = FingerId;
-
-		//    // Record time-in
-		//    RecordTimeIn(userId, fingerprintData);
-
-		//    // Refresh the list of tracked users
-		//    TrackUsers = GetAttendanceRecordsForToday();
-
-		//    // Display success message or redirect as needed
-		//    return Page();
-		//}
-
-		//public IActionResult OnPostCaptureTimeOut()
-		//{
-		//    // Capture fingerprint data (replace this with your actual logic to capture fingerprint data)
-		//    int fingerprintData = CaptureFingerprintData();
-
-		//    // Assuming you have a user context (e.g., from authentication)
-		//    var userId = /* Get the current user's ID */;
-
-		//    // Record time-out
-		//    RecordTimeOut(userId, fingerprintData);
-
-		//    // Refresh the list of tracked users
-		//    TrackUsers = GetAttendanceRecordsForToday();
-
-		//    // Display success message or redirect as needed
-		//    return Page();
-		//}
-
-		//private void RecordTimeIn(int userId, int fingerprintData)
-		//{
-		//    // Simulated logic to record time-in in the database
-		//    // Note: Replace this with your actual logic to save time-in data
-
-		//    // Example:
-		//    var trackUser = new TrackUser
-		//    {
-		//        ManageUserId = userId,
-		//        TimeIn = DateTime.Now,
-		//        ManageUser = new ManageUser // You might need to fetch the ManageUser from the database based on userId
-		//        {
-		//            // Populate ManageUser properties accordingly
-		//        }
-		//    };
-
-		//    // Save the trackUser to the database using your data access logic
-		//    _db.RecordTimeIn(trackUser);
-		//}
-
-		//private void RecordTimeOut(int userId, byte[] fingerprintData)
-		//{
-		//    // Simulated logic to record time-out in the database
-		//    // Note: Replace this with your actual logic to save time-out data
-
-		//    // Example:
-		//    var trackUser = new TrackUser
-		//    {
-		//        ManageUserId = userId,
-		//        TimeOut = DateTime.Now,
-		//        // You might not need to set ManageUser here since it's already associated during time-in
-		//    };
-
-		//    // Save the trackUser to the database using your data access logic
-		//    _db.RecordTimeOut(trackUser);
-		//}
-
-		//private IEnumerable<TrackUser> GetAttendanceRecordsForToday()
-		//{
-		//    // Simulated logic to retrieve attendance records for today
-		//    // Note: Replace this with your actual logic to get attendance records
-		//    var today = DateTime.Today;
-		//    return _db.GetAttendanceRecordsForDate(today);
-		//}
-		//private List<TrackUser> GetAttendanceRecordsForToday()
-		//{
-		//    // Simulated logic to get attendance records for today
-		//    // Note: Replace this with your actual logic to retrieve data from the database
-
-		//    // Example:
-		//    var today = DateTime.Today;
-		//    var attendanceRecords = _db.GetAttendanceRecordsForToday(today);
-
-		//    return attendanceRecords;
-		//}
-		//// Replace this method with your actual logic to capture fingerprint data
-		//private int CaptureFingerprintData()
-		//{
-		//    // Example: Simulated logic to capture fingerprint data
-		//    return 12345;
+		//	// Create a memory stream to hold the Excel file
+		//	using (var memoryStream = new MemoryStream())
+		//	{
+		//		using (var excelPackage = new ExcelPackage(memoryStream))
+		//		{
+		//			var worksheet = excelPackage.Workbook.Worksheets.Add("Sheet1");
+		//			// Load data from DataTable to Excel worksheet
+		//			// For example: worksheet.Cells["A1"].LoadFromDataTable(dataTable, true);
+		//			excelPackage.Save();
+		//		}
+		//		// Return the Excel file as a downloadable file
+		//		return File(memoryStream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "exported_data.xlsx");
+		//	}
 		//}
 	}
 }

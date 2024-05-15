@@ -37,7 +37,7 @@ namespace Biometric_Attendence1.Pages
 
 
                 _mb.Add(manageUser);
-                TempData["Success"] = "User Added Successfully";
+                
 
                 return new JsonResult(new { success = true, message = "successfully added the details" });
 

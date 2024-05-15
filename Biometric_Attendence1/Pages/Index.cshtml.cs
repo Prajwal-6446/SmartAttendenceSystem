@@ -29,6 +29,7 @@ namespace Biometric_Attendence1.Pages
         }
         public IActionResult OnPost()
         {
+            
 
             if (registration.Password != registration.confirmPassword)
             {
@@ -39,11 +40,6 @@ namespace Biometric_Attendence1.Pages
             TempData["Success"] = "Registration Successfully";
             return RedirectToPage("MIndex1");
         }
-        //public JsonResult OnPostUserExistence(int id)
-        //{
-
-        //    bool userExistence = _ma.UserExtistnce(id);
-        //    return new JsonResult(new { success = userExistence });
-        //}
     }
+
 }

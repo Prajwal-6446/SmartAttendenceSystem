@@ -15,8 +15,8 @@ namespace Biometrics_Models
         [Key]
         public int Id { get; set; }
         //[Required]
-        public string Name { get; set; }
-        public string Gender { get; set; }
+        public string? Name { get; set; }
+        public string? Gender { get; set; }
         //[Required]
         //[Range(0, 100, ErrorMessage = "Enter Finger ID between 1 - 127:")]
         public int FingerId { get; set; }
@@ -24,7 +24,7 @@ namespace Biometrics_Models
         public DateTime Date { get; set; }
         public string FingerprintData { get; set; }
         [NotMapped]
-         public virtual TrackUser TrackUser { get; set; }
+         public virtual TrackUser? TrackUser { get; set; }
 
 	
 	}
